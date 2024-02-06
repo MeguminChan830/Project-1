@@ -15,7 +15,7 @@
 		<p class="text-sm">{content}</p>
 		<div class="flex items-center gap-5">
 			<button class="p-1 text-xs rounded-full hover:bg-gray-200">
-				<img src="/icons/likeIcons.svg" alt="" />
+				<img src="/icons/likeIcon.svg" alt="" />
 			</button>
 			<button class="p-1 text-xs rounded-full hover:bg-gray-200">
 				<img src="/icons/dislikeIcon.svg" alt="" />

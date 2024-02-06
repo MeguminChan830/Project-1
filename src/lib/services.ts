@@ -15,10 +15,12 @@ const axios= Axios.create({
 
 export const getHomePage=async()=>{
     try{
+        console.log("In getHomePage")
         const result= await axios('home/')
         return result.data.contents
     }catch(e){
         console.log("🚀 Error: ", e)
+        return []
     }
 }
 export const getSearch=async({query, filters}:{query:string, filters:string})=>{
@@ -50,6 +52,7 @@ export const getVideoDetails=async (id:string)=>{
 
 export const getVideoComments=async(id:string)=>{
 try{
+    
     const result= await axios('video/comments/', {
         params:{
             id
@@ -71,5 +74,6 @@ export const getRelatedContent=async(id:string)=>{
         return result.data.contents
     }catch(e){
         console.log("Error: ", e)
+        return []
     }
 }

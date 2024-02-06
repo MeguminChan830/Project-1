@@ -3,7 +3,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<form method="POST" use:enhance action="/search" class="h-[40px] flex basis-[600px]">
+<form method="POST" use:enhance action="?/search" class="h-[40px] flex basis-[600px]">
 	<input
 		type="text"
 		class="h-[40px] outline-none focus:border-blue-600 focus:border-2 px-3 rounded-s-3xl flex-1 border border-gray-400"
