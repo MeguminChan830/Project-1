@@ -36,7 +36,9 @@
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.10",
 		"axios": "^1.6.7",
+		"bits-ui": "^0.17.0",
 		"clsx": "^2.1.0",
+		"lucide-svelte": "^0.323.0",
 		"tailwind-merge": "^2.2.1"
 	}
 }
