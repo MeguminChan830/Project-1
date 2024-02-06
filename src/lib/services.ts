@@ -16,6 +16,7 @@ const axios= Axios.create({
 export const getHomePage=async()=>{
     try{
         const result= await axios('home/')
+        return result.data.contents
     }catch(e){
         console.log("🚀 Error: ", e)
     }

@@ -2,7 +2,6 @@
 	export let name: string;
 	export let subscribersText: string;
 	export let avatar: string;
-	// export let likes: number;
 </script>
 
 <div class="flex my-5 items-center justify-between">

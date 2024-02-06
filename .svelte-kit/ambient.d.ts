@@ -26,7 +26,7 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const SOMETHING: string;
+	export const VITE_X_RapidAPI_Key: string;
 	export const LESSOPEN: string;
 	export const USER: string;
 	export const LC_TIME: string;
@@ -55,6 +55,7 @@ declare module '$env/static/private' {
 	export const COLORTERM: string;
 	export const npm_package_devDependencies_tailwindcss: string;
 	export const npm_package_devDependencies_typescript: string;
+	export const npm_package_dependencies__tailwindcss_typography: string;
 	export const NVM_DIR: string;
 	export const IM_CONFIG_PHASE: string;
 	export const WAYLAND_DISPLAY: string;
@@ -73,6 +74,8 @@ declare module '$env/static/private' {
 	export const USERNAME: string;
 	export const TERM: string;
 	export const GNOME_DESKTOP_SESSION_ID: string;
+	export const npm_package_dependencies_tailwind_merge: string;
+	export const npm_package_dependencies_axios: string;
 	export const npm_config_node_gyp: string;
 	export const PATH: string;
 	export const SESSION_MANAGER: string;
@@ -109,9 +112,11 @@ declare module '$env/static/private' {
 	export const npm_package_scripts_build: string;
 	export const npm_package_devDependencies_svelte: string;
 	export const npm_package_devDependencies_tslib: string;
+	export const npm_package_dependencies_bits_ui: string;
 	export const LESSCLOSE: string;
 	export const LC_MEASUREMENT: string;
 	export const LC_IDENTIFICATION: string;
+	export const npm_package_dependencies_clsx: string;
 	export const QT_IM_MODULE: string;
 	export const npm_package_scripts_format: string;
 	export const PWD: string;
@@ -127,8 +132,11 @@ declare module '$env/static/private' {
 	export const LC_PAPER: string;
 	export const npm_package_scripts_preview: string;
 	export const npm_package_devDependencies_prettier_plugin_svelte: string;
+	export const PNPM_HOME: string;
 	export const VTE_VERSION: string;
+	export const npm_package_dependencies_lucide_svelte: string;
 	export const npm_package_devDependencies__types_eslint: string;
+	export const npm_package_dependencies_nprogress: string;
 	export const INIT_CWD: string;
 	export const NODE_ENV: string;
 }
@@ -162,7 +170,7 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		SOMETHING: string;
+		VITE_X_RapidAPI_Key: string;
 		LESSOPEN: string;
 		USER: string;
 		LC_TIME: string;
@@ -191,6 +199,7 @@ declare module '$env/dynamic/private' {
 		COLORTERM: string;
 		npm_package_devDependencies_tailwindcss: string;
 		npm_package_devDependencies_typescript: string;
+		npm_package_dependencies__tailwindcss_typography: string;
 		NVM_DIR: string;
 		IM_CONFIG_PHASE: string;
 		WAYLAND_DISPLAY: string;
@@ -209,6 +218,8 @@ declare module '$env/dynamic/private' {
 		USERNAME: string;
 		TERM: string;
 		GNOME_DESKTOP_SESSION_ID: string;
+		npm_package_dependencies_tailwind_merge: string;
+		npm_package_dependencies_axios: string;
 		npm_config_node_gyp: string;
 		PATH: string;
 		SESSION_MANAGER: string;
@@ -245,9 +256,11 @@ declare module '$env/dynamic/private' {
 		npm_package_scripts_build: string;
 		npm_package_devDependencies_svelte: string;
 		npm_package_devDependencies_tslib: string;
+		npm_package_dependencies_bits_ui: string;
 		LESSCLOSE: string;
 		LC_MEASUREMENT: string;
 		LC_IDENTIFICATION: string;
+		npm_package_dependencies_clsx: string;
 		QT_IM_MODULE: string;
 		npm_package_scripts_format: string;
 		PWD: string;
@@ -263,8 +276,11 @@ declare module '$env/dynamic/private' {
 		LC_PAPER: string;
 		npm_package_scripts_preview: string;
 		npm_package_devDependencies_prettier_plugin_svelte: string;
+		PNPM_HOME: string;
 		VTE_VERSION: string;
+		npm_package_dependencies_lucide_svelte: string;
 		npm_package_devDependencies__types_eslint: string;
+		npm_package_dependencies_nprogress: string;
 		INIT_CWD: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;

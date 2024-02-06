@@ -1,3 +1,12 @@
 {
-	"/": []
+	"/(group)": [
+		"src/routes/(group)/+page.server.ts"
+	],
+	"/": [],
+	"/(group)/result": [
+		"src/routes/(group)/result/+page.server.ts"
+	],
+	"/[videoId]": [
+		"src/routes/[videoId]/+page.server.ts"
+	]
 }
